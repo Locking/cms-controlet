@@ -1,0 +1,9 @@
+<!-- BEGIN: empty -->
+<div class="container">
+      <div class="jumbotron">
+        <h2>Страница не найдена...</h2>
+        <p>Страница была удалена или ещё не настроена.</p>
+        <p><a href="{SYSTEM.FOLDER}/" class="btn btn-primary btn-lg" role="button">Перейти на главную »</a></p>
+      </div>
+</div>
+<!-- END: empty -->

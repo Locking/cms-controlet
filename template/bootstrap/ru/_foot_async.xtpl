@@ -1,0 +1,10 @@
+<!-- BEGIN: foot -->
+	<div id="alerts_async" class="hidden">
+		<!-- BEGIN: error -->
+			<div class="error hidden">{MESSAGE}</div>
+		<!-- END: error-->
+		<!-- BEGIN: ok -->
+			<div class="ok hidden">{MESSAGE_OK}</div>
+		<!-- END: ok -->
+	</div>
+<!-- END: foot -->

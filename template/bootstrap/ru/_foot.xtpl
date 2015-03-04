@@ -1,0 +1,82 @@
+<!-- BEGIN: foot -->
+	<div id="alerts" class="hidden">
+		<!-- BEGIN: error -->
+			<div class="error hidden">{MESSAGE}</div>
+		<!-- END: error-->
+		<!-- BEGIN: ok -->
+			<div class="ok hidden">{MESSAGE_OK}</div>
+		<!-- END: ok -->
+	</div>
+	<div id="footer">
+		<hr class="featurette-divider">
+		<div class="container-fluid">
+			<footer>
+				<p class="pull-right">{MICROTIME} сек.</p>
+				   <p>© Связной Банк, ОВПЗ, ГАТС (<a href="mailto:helpcollection@svyaznoybank.ru">helpcollection@svyaznoybank.ru</a>)</p>
+			  </footer>
+		</div>
+	</div>
+
+	<div class="modal fade" id="ModalInfo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-lg">
+		<div class="modal-content">
+		  <div class="modal-body">
+		  </div>
+		</div>
+	  </div>
+	</div>
+
+	<div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-lg">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			<h4 class="modal-title" id="ModalLabel"></h4>
+		  </div>
+		  <div class="modal-body">
+
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" id="button_save" onclick="Save()" class="btn btn-success">Сохранить</button>  
+			<button type="button" id="button_save_close" onclick="SaveClose()" class="btn btn-primary">Сохранить и закрыть</button>  
+			<button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
+		  </div>
+		</div>
+	  </div>
+	</div>
+
+	<div class="modal fade" id="ModalSmall" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-sm">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			<h4 class="modal-title" id="ModalSmallLabel"></h4>
+		  </div>
+		  <div class="modal-body">
+
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" id="button_confirm" onclick="Confirm()" class="btn btn-success">Подтвердить</button>  
+			<button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+	<script type="text/javascript" src="{SYSTEM.FOLDER}/js/jquery-1.9.1.min.js"></script>
+	<!-- BEGIN: js_in -->
+		<script type="text/javascript" src="{SYSTEM.FOLDER}/{JS}"></script>
+	<!-- END: js_in -->
+	<!-- BEGIN: js_ex -->
+		<script type="text/javascript" src="//{JS}"></script>
+	<!-- END: js_ex -->
+	<!--[if lt IE 9]>
+      <script src="{SYSTEM.FOLDER}/template/{SYSTEM.TEMPLATE}/respondIE.min.js"></script>
+    <![endif]-->	
+		<div class="animate_line">
+		<div class="animate_line_4"></div>
+		</div>
+		<div class="wait"><div class="wait-content"><!--<img src="{SYSTEM.FOLDER}/template/{SYSTEM.TEMPLATE}/images/wait.gif" alt="wait"><br/>-->Пожалуйста, подождите...<p><span></span> сек.</p></div><div class="wait-helper"></div></div>		
+</body>
+</html>
+<!-- END: foot -->

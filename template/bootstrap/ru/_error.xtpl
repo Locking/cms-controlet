@@ -1,0 +1,8 @@
+<!-- BEGIN: error -->
+<div class="container theme-showcase" role="main">
+      <div class="jumbotron">
+        <h1>Сайт не доступен</h1>
+        <p>К сожалению на данный момент сайт не доступен по техническим причинам.<br/>Пожалуйста, зайдите немного позже.</p>
+      </div>
+</div>
+<!-- END: error -->

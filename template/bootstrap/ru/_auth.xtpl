@@ -1,0 +1,17 @@
+<!-- BEGIN: auth -->
+<div class="container">
+      <form class="form-signin" role="form" action="" method="POST">
+		 <h3 class="form-signin-heading text-center">Вход в систему</h3>        
+        <input type="text" name="login" class="form-control" placeholder="Логин" required="" autofocus="">
+        <input type="password" name="password" class="form-control" placeholder="Пароль" required="">
+		<!-- BEGIN: code -->
+			<div class="text-center captcha">
+				<img src="./modules/kcaptcha/index.php?{SES.SES_NAME}={SES.SES_ID}" align="middle" alt="Код">
+				<input type="text" name="keystring" class="form-control" placeholder="Код с картинки" required="">	
+			</div>
+		<!-- END: code-->
+        <button class="btn btn-lg btn-primary btn-block" data-loading-text="Подождите..." type="submit">Войти</button><br/><br/>
+		<p class="help-block center">Для получения доступа напишите письмо на <a href="mailto:helpcollection@svyaznoybank.ru">helpcollection@svyaznoybank.ru</a></p>
+      </form>
+</div>
+<!-- END: auth -->

@@ -1,0 +1,20 @@
+<!-- BEGIN: head -->
+<!DOCTYPE html>
+<html lang="{SYSTEM.LANG}">
+<head>
+	<meta charset="utf-8">
+	 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="{SYSTEM.DESCRIPTION}">
+	<meta name="keywords" content="{SYSTEM.KEYWORDS}">
+	<title>{SYSTEM.TITLE}</title>
+	<link rel="shortcut icon" href="{SYSTEM.FOLDER}/template/{SYSTEM.TEMPLATE}/images/favicon.ico">
+	<!-- BEGIN: css -->
+		<link rel="stylesheet" href="{SYSTEM.FOLDER}/template/{SYSTEM.TEMPLATE}/css/{CSS}" media="screen">
+	<!-- END: css -->
+	<!-- BEGIN: css_ie -->
+		<!--[if lt IE 9]><link rel="stylesheet" href="{SYSTEM.FOLDER}/template/{SYSTEM.TEMPLATE}/css/{CSS}" media="screen"><![endif]-->
+	<!-- END: css_ie -->	
+</head>
+<body>
+<!-- END: head -->

@@ -1,0 +1,73 @@
+
+.top_panel{
+background-color: #517CA7;
+behavior: url(/modules/pie/PIE.php);
+}
+.top_panel .active_main{
+behavior: url(/modules/pie/PIE.php);
+}
+.top_panel .step_block{
+behavior: url(/modules/pie/PIE.php);
+}
+.menu li{
+behavior: url(/modules/pie/PIE.php);
+}
+
+.enter_welcome{
+	margin-bottom: 30px;
+}
+
+.enter_form input:valid + label {	
+	top: -16px;
+}
+.enter_form input:focus + label {
+	top: -16px;
+}
+
+.enter_form label {
+opacity: 1;
+top: -16px;
+color: #FFF;
+background-color: rgb(40, 99, 124);
+font-size: 13px;
+margin-left: 100px;
+}
+
+.left_block input[type=file]{
+background: #FFF;
+color: #222;
+}
+
+.button{
+    border:0;
+}
+
+.button_border{
+overflow: hidden;
+display: inline-block;
+border-width: 1px;
+border-style: solid;
+border-color: #CCC;
+}
+
+.navigation{
+_position:absolute;
+  bottom:23px;
+  /*_top:expression(eval(document.body.scrollTop));*/
+  
+  }
+.wait{
+filter: alpha(Opacity=70);
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}  
+.wait-content{
+display:-moz-inline-box;
+zoom:1;
+display:inline;
+}
+.wait-helper{
+display:-moz-inline-box;
+zoom:1;
+display:inline;
+}
+  
