@@ -1,2 +1,2 @@
 # cms-controlet
-Mini CMS (PHP+MySQL+JQuery+Bootstrap)
+Framework (PHP+MySQL+JQuery+Bootstrap)
